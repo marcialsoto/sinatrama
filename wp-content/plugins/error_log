@@ -1,0 +1,1 @@
+[12-Oct-2015 23:21:03 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/sinatrama/public_html/wp-content/plugins/hello.php on line 60

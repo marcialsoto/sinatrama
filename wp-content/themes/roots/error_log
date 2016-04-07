@@ -1,0 +1,6 @@
+[12-Oct-2015 08:42:57 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/sinatrama/public_html/wp-content/themes/roots/404.php on line 1
+[01-Mar-2016 07:44:56 UTC] PHP Fatal error:  Call to undefined function locate_template() in /home/sinatrama/public_html/wp-content/themes/roots/functions.php on line 5
+[01-Mar-2016 07:44:58 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/sinatrama/public_html/wp-content/themes/roots/404.php on line 1
+[01-Mar-2016 07:44:58 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/sinatrama/public_html/wp-content/themes/roots/404.php on line 1
+[13-Mar-2016 17:12:56 UTC] PHP Fatal error:  Call to undefined function locate_template() in /home/sinatrama/public_html/wp-content/themes/roots/functions.php on line 5
+[13-Mar-2016 17:12:56 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/sinatrama/public_html/wp-content/themes/roots/404.php on line 1
