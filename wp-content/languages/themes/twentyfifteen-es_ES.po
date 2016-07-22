@@ -2,21 +2,46 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-07-27 22:21:26+0000\n"
+"PO-Revision-Date: 2015-07-23 08:26:50+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.0-alpha-1100\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
 "Project-Id-Version: Twenty Fifteen\n"
 
-#. Author of the plugin/theme
-msgid "the WordPress team"
-msgstr "el equipo WordPress"
+#. translators: %s: post title
+#: inc/template-tags.php:123
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Deja un comentario<span class=\"screen-reader-text\"> en %s</span>"
 
 #. Theme URI of the plugin/theme
 msgid "https://wordpress.org/themes/twentyfifteen/"
 msgstr "https://wordpress.org/themes/twentyfifteen/"
+
+#: single.php:37
+msgid "Previous post:"
+msgstr "Entrada anterior:"
+
+#: single.php:34
+msgid "Next post:"
+msgstr "Entrada siguiente:"
+
+#: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr "Aplicado a la cabecera en pantallas pequeñas y a la barra lateral en pantallas anchas."
+
+#: single.php:33
+msgid "Next"
+msgstr "Siguiente"
+
+#: single.php:36
+msgid "Previous"
+msgstr "Anterior"
+
+#. Author of the plugin/theme
+msgid "the WordPress team"
+msgstr "el equipo de WordPress"
 
 #. Description of the plugin/theme
 msgid "Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer."
@@ -26,37 +51,9 @@ msgstr "Nuestro tema por defecto de 2015 es limpio, enfocado a los blogs y con u
 msgid "Twenty Fifteen"
 msgstr "Twenty Fifteen"
 
-#: single.php:37
-msgid "Previous post:"
-msgstr "Entrada anterior:"
-
-#: single.php:36
-msgid "Previous"
-msgstr "Anterior"
-
-#: single.php:34
-msgid "Next post:"
-msgstr "Entrada siguiente:"
-
-#: single.php:33
-msgid "Next"
-msgstr "Siguiente"
-
 #: search.php:18
 msgid "Search Results for: %s"
 msgstr "Resultados de búsqueda por: %s"
-
-#: inc/template-tags.php:122
-msgid "% Comments"
-msgstr "% comentarios"
-
-#: inc/template-tags.php:122
-msgid "1 Comment"
-msgstr "1 comentario"
-
-#: inc/template-tags.php:122
-msgid "Leave a comment"
-msgstr "Dejar un comentario"
 
 #: inc/template-tags.php:113
 msgctxt "Used before full size attachment link."
@@ -83,69 +80,65 @@ msgctxt "Used before post author name."
 msgid "Author"
 msgstr "Autor"
 
-#: inc/template-tags.php:55
-msgctxt "Used before post format."
-msgid "Format"
-msgstr "Formato"
-
 #: inc/template-tags.php:76
 msgctxt "Used before publish date."
 msgid "Posted on"
 msgstr "Publicado el"
 
-#: inc/template-tags.php:49
-msgid "Featured"
-msgstr "Destacado"
-
-#: inc/template-tags.php:30
-msgid "Newer Comments"
-msgstr "Comentarios más recientes"
+#: inc/template-tags.php:55
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "Formato"
 
 #: inc/template-tags.php:26
 msgid "Older Comments"
 msgstr "Comentarios anteriores"
 
+#: inc/template-tags.php:30
+msgid "Newer Comments"
+msgstr "Comentarios más recientes"
+
+#: inc/template-tags.php:49
+msgid "Featured"
+msgstr "Destacado"
+
 #: inc/template-tags.php:23
 msgid "Comment navigation"
 msgstr "Navegación de comentarios"
 
-#: inc/customizer.php:147
+#: inc/customizer.php:205
 msgid "Blue"
 msgstr "Azul"
 
-#: inc/customizer.php:136
+#: inc/customizer.php:194
 msgid "Purple"
 msgstr "Morado"
 
-#: inc/customizer.php:125
+#: inc/customizer.php:183
 msgid "Pink"
 msgstr "Rosa"
 
-#: inc/customizer.php:114
-msgid "Yellow"
-msgstr "Amarillo"
-
-#: inc/customizer.php:103
+#: inc/customizer.php:161
 msgid "Dark"
 msgstr "Oscuro"
 
-#: inc/customizer.php:92
+#: inc/customizer.php:172
+msgid "Yellow"
+msgstr "Amarillo"
+
+#: inc/customizer.php:150
 msgid "Default"
 msgstr "Por defecto"
 
-#: inc/customizer.php:62
+#: inc/customizer.php:75
 msgid "Header and Sidebar Background Color"
 msgstr "Color de fondo de la cabecera y barra lateral"
 
-#: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
-msgid "Applied to the header on small screens and the sidebar on wide screens."
-msgstr "Aplicado a la cabecera en pantallas pequeñas y a la barra lateral en pantallas anchas."
-
-#: inc/customizer.php:31
+#: inc/customizer.php:44
 msgid "Base Color Scheme"
 msgstr "Esquema de color básico"
 
-#: inc/customizer.php:46
+#: inc/customizer.php:59
 msgid "Header and Sidebar Text Color"
 msgstr "Color de texto de cabecera y barra lateral"
 
@@ -153,39 +146,39 @@ msgstr "Color de texto de cabecera y barra lateral"
 msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
 msgstr "Twenty Finten requiere al menos la versión 4.1 de WordPress. Estás ejecutando la versión %s. Por favor, actualiza e inténtalo de nuevo."
 
-#: image.php:84
-msgctxt "Parent post link"
-msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
-msgstr "<span class=\"meta-nav\">Publicado en</span><span class=\"post-title\">%title</span>"
+#: image.php:24
+msgid "Previous Image"
+msgstr "Imagen anterior"
 
 #: image.php:24
 msgid "Next Image"
 msgstr "Imagen siguiente"
 
-#: header.php:43
+#: image.php:84
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">Publicado en</span><span class=\"post-title\">%title</span>"
+
+#: header.php:45
 msgid "Menu and widgets"
 msgstr "Menú y widgets"
 
-#: image.php:24
-msgid "Previous Image"
-msgstr "Imagen anterior"
+#: functions.php:269
+msgid "expand child menu"
+msgstr "expande el menú inferior"
+
+#: functions.php:270
+msgid "collapse child menu"
+msgstr "plegar menú inferior"
 
 #: header.php:26
 msgid "Skip to content"
 msgstr "Ir al contenido"
 
-#: functions.php:256
-msgid "collapse child menu"
-msgstr "plegar menú inferior"
-
-#: functions.php:255
-msgid "expand child menu"
-msgstr "expande el menú inferior"
-
 #. Translators: To add an additional character subset specific to your
 #. language, translate this to 'greek', 'cyrillic', 'devanagari' or
 #. 'vietnamese'. Do not translate into your own language.
-#: functions.php:185
+#: functions.php:199
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "sin derivada"
@@ -193,48 +186,48 @@ msgstr "sin derivada"
 #. Translators: If there are characters in your language that are not supported
 #. by Inconsolata, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:177
+#: functions.php:191
 msgctxt "Inconsolata font: on or off"
-msgid "on"
-msgstr "activa"
-
-#. Translators: If there are characters in your language that are not supported
-#. by Noto Serif, translate this to 'off'. Do not translate into your own
-#. language.
-#: functions.php:169
-msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "activa"
 
 #. Translators: If there are characters in your language that are not supported
 #. by Noto Sans, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:161
+#: functions.php:175
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "activa"
 
-#: functions.php:135
+#. Translators: If there are characters in your language that are not supported
+#. by Noto Serif, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:183
+msgctxt "Noto Serif font: on or off"
+msgid "on"
+msgstr "activa"
+
+#: functions.php:149
 msgid "Add widgets here to appear in your sidebar."
 msgstr "Añade aquí los widgets para que aparezca en la barra lateral."
 
-#: functions.php:133
+#: functions.php:147
 msgid "Widget Area"
 msgstr "Área de widgets"
-
-#: functions.php:86
-msgid "Social Links Menu"
-msgstr "Menú de enlaces sociales"
 
 #: functions.php:85
 msgid "Primary Menu"
 msgstr "Menú principal"
 
+#: functions.php:86
+msgid "Social Links Menu"
+msgstr "Menú de enlaces sociales"
+
 #: footer.php:25
 msgid "Proudly powered by %s"
 msgstr "Creado con %s"
 
-#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.2)  #-#-#-#-#
+#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.5)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:25
 msgid "https://wordpress.org/"
@@ -266,7 +259,7 @@ msgid "Pages:"
 msgstr "Páginas:"
 
 #. translators: %s: Name of current post
-#: content-link.php:31 content.php:33 inc/template-tags.php:237
+#: content-link.php:31 content.php:33 inc/template-tags.php:238
 msgid "Continue reading %s"
 msgstr "Continúa leyendo %s"
 
